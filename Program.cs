@@ -38,7 +38,7 @@ namespace variabledatatype
             Console.WriteLine("Is there any feedback you'd like to provide? Be specific");
             string feedback = Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
-            string hoursStudyStr = Console.ReadLine(); //console only reads strings, so have to save variable as string.
+            string hoursStudyStr = Console.ReadLine(); //console only reads strings, so variable must be converted to string.
             int hoursStudy = Convert.ToInt32(hoursStudyStr); //convert to int variable because logically hours study should be stored as a number.
 
         }
