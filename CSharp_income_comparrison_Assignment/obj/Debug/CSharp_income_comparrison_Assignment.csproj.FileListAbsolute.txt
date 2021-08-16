@@ -1,0 +1,7 @@
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\bin\Debug\CSharp_income_comparrison_Assignment.exe.config
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\bin\Debug\CSharp_income_comparrison_Assignment.exe
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\bin\Debug\CSharp_income_comparrison_Assignment.pdb
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\obj\Debug\CSharp_income_comparrison_Assignment.csproj.AssemblyReference.cache
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\obj\Debug\CSharp_income_comparrison_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\obj\Debug\CSharp_income_comparrison_Assignment.exe
+C:\Users\14236\source\repos\CSharp_income_comparrison_Assignment\obj\Debug\CSharp_income_comparrison_Assignment.pdb
