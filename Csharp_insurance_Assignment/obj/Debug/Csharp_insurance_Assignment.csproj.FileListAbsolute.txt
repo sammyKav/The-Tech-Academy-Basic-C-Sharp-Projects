@@ -1,0 +1,7 @@
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\bin\Debug\Csharp_insurance_Assignment.exe.config
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\bin\Debug\Csharp_insurance_Assignment.exe
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\bin\Debug\Csharp_insurance_Assignment.pdb
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\obj\Debug\Csharp_insurance_Assignment.csproj.AssemblyReference.cache
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\obj\Debug\Csharp_insurance_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\obj\Debug\Csharp_insurance_Assignment.exe
+C:\Users\14236\source\repos\Csharp_insurance_Assignment\obj\Debug\Csharp_insurance_Assignment.pdb
