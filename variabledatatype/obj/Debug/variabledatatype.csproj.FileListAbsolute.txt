@@ -1,0 +1,7 @@
+C:\Users\14236\source\repos\variabledatatype\bin\Debug\variabledatatype.exe.config
+C:\Users\14236\source\repos\variabledatatype\bin\Debug\variabledatatype.exe
+C:\Users\14236\source\repos\variabledatatype\bin\Debug\variabledatatype.pdb
+C:\Users\14236\source\repos\variabledatatype\obj\Debug\variabledatatype.csproj.AssemblyReference.cache
+C:\Users\14236\source\repos\variabledatatype\obj\Debug\variabledatatype.csproj.CoreCompileInputs.cache
+C:\Users\14236\source\repos\variabledatatype\obj\Debug\variabledatatype.exe
+C:\Users\14236\source\repos\variabledatatype\obj\Debug\variabledatatype.pdb
