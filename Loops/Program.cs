@@ -35,7 +35,35 @@ namespace Loops
                 }
             }
             while (!isGuessed);
-            Console.Read();
+            
+
+            Console.WriteLine("Are you happy?");
+            string howRU = Console.ReadLine().ToUpper();
+            bool happy = howRU=="YES";
+            while (!happy)
+            {
+                switch(howRU)
+                {
+                    case "NO":
+                        Console.Write("That's not the answer I am looking for! Try again!");
+                        Console.WriteLine("Are you happy?");
+                        howRU = Console.ReadLine().ToUpper();
+                        break;
+                    case "YES":
+                        Console.WriteLine("Way to go!");
+                        happy = true;
+                        Console.Read();
+                        break;
+                    default:
+                        Console.WriteLine("It's a yes/no question! Try again.");
+                        Console.WriteLine("Are you happy?");
+                        howRU = Console.ReadLine().ToUpper();
+                        break;
+                        
+
+                }
+                
+            }
         }
     }
 }
