@@ -55,90 +55,51 @@ using System.Threading.Tasks;
             Console.WriteLine(addStr1);
         }
 
-        bool isGuessed = false;
+     
+
+            //part #4
+        Console.WriteLine("Hey, there's a list of talking taco. Enter a name and I'll tell you the order!");
+        string name = Console.ReadLine();
         
-        do
+        foreach( string taco in talkingTacoNames)
         {
-
-            
-            Console.WriteLine("Hey, there's a list of talking taco. Enter a name and I'll tell you the order!");
-            string name = Console.ReadLine();
-
-
-            switch (name) // { "BeefyBill", "TacoTimeTuesday", "AlphaMan", "HorseMeetMistress", "AlanGreenspan", "JPowell","JanetYellen" };
+            if(name == taco) //if the user input equals the value in the list. 
             {
-                case "BeefyBill":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                case "TacoTimeTuesday":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                case "AlphaMan":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                case "HorseMeetMistress":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                case "AlanGreenspan":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                case "JPowell":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                case "JanetYellen":
-                    Console.WriteLine(talkingTacoNames.IndexOf(name));
-                    isGuessed = true;
-                    break;
-                default:
-                    Console.WriteLine("The input isn't on the list. You're input should be on the list, Carl!, Try agian.");
-                    break;
+                int Index = talkingTacoNames.IndexOf(taco);
+                Console.WriteLine(Index + " " + taco); 
+                break;
             }
-        } while (!isGuessed);
+            if(!talkingTacoNames.Contains(name))
+            {
+                Console.WriteLine("Are you crazy? Of course theren't isn't any talking tacos by the name of" + name);
+                break;
+            }
+            
+        }
+           
 
         
 
-        bool isCriminal = false;
-        do
-        {
+        
+        
             //"Cat Women", "Alfred", "Marc Anthony", "Julius Caesar", "Marc Anthony", "Jimbo Fisher", "Alfred", "Jimbo Fisher" 
 
             Console.WriteLine("Write a name and see if they've been arrested this week.");
             string criminal = Console.ReadLine();
-            switch (criminal)
+        foreach(string arrest in weeklyArrests)
+        {
+            if(arrest == criminal)
             {
-                case "Cat Women":
-                    Console.WriteLine("First Arrest id#" + weeklyArrests.IndexOf(criminal) + " Second Arrest id# " + weeklyArrests.LastIndexOf(criminal));
-                    isCriminal = true;
-                    break;
-                case "Alfred":
-                    Console.WriteLine("First Arrest id#" + weeklyArrests.IndexOf(criminal) + " Second Arrest id# " + weeklyArrests.LastIndexOf(criminal));
-                    isCriminal = true;
-                    break;
-                case "Marc Anthony":
-                    Console.WriteLine("First Arrest id#" + weeklyArrests.IndexOf(criminal) + " Second Arrest id# " + weeklyArrests.LastIndexOf(criminal));
-                    isCriminal = true;
-                    break;
-                case "Julius Caesar":
-                    Console.WriteLine("First Arrest id# " + weeklyArrests.IndexOf(criminal) + " Second Arrest id# " + weeklyArrests.LastIndexOf(criminal));
-                    isCriminal = true;
-                    break;
-                case "Jimbo Fisher":
-                    Console.WriteLine("First Arrest id# " + weeklyArrests.IndexOf(criminal) + " Second Arrest id# " + weeklyArrests.LastIndexOf(criminal));
-                    isCriminal = true;
-                    break;
-                default:
-                    Console.WriteLine("This person hasn't been arrested yet.\n");
-                    break;
-
+                Console.WriteLine("First Arrest id#" + weeklyArrests.IndexOf(arrest) + " Second Arrest id# " + weeklyArrests.LastIndexOf(arrest));
+                break;
             }
-        } while (!isCriminal);
-
+            if(!weeklyArrests.Contains(criminal))
+            {
+                Console.WriteLine("This person hasn't been arrested yet. We'll be sure to arrest them at your earliest convenience.");
+                break;
+            }
+        }    
+           
 
         List<string> customerComplaints = new List<string> { "Too loud", "Too quite", "Rude", "Poor smell", "Too loud", "Too loud", "Too quite", "Rude", "Poor smell" };
 

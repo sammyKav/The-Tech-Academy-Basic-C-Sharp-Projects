@@ -5,3 +5,10 @@ C:\Users\14236\source\repos\StringApp\obj\Debug\StringApp.csproj.AssemblyReferen
 C:\Users\14236\source\repos\StringApp\obj\Debug\StringApp.csproj.CoreCompileInputs.cache
 C:\Users\14236\source\repos\StringApp\obj\Debug\StringApp.exe
 C:\Users\14236\source\repos\StringApp\obj\Debug\StringApp.pdb
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\bin\Debug\StringApp.exe.config
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\bin\Debug\StringApp.exe
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\bin\Debug\StringApp.pdb
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\obj\Debug\StringApp.csproj.AssemblyReference.cache
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\obj\Debug\StringApp.csproj.CoreCompileInputs.cache
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\obj\Debug\StringApp.exe
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringApp\obj\Debug\StringApp.pdb
