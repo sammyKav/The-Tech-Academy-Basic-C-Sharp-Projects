@@ -9,34 +9,34 @@ namespace Methods
     class ReturnInt
     {
         
-        public void Multiply(int param) //this method creates an Prodcut object
+        public static int Multiply(int param) //this method creates an Prodcut object
         {
             Random random = new Random();
             int num = random.Next(0, 10);
-            Product = num * param;
-            
+            int value = num * param;
+            return value;
         }
 
-        public void Add(int param) //this method creates an Addition object
-        {
-            Random random = new Random();
-            int num = random.Next(0, 10);
-            Addition = param + num;
-        }
-
-
-
-        public void Division(int param) //this method creates an Division object
+        public static int Add(int param) //this method creates an Addition object
         {
             Random random = new Random();
             int num = random.Next(1, 10);
-            Quotient = param / num;
+            int value = param / num;
+            return value;
+        }
+
+
+
+        public static int Division(int param) //this method creates an Division object
+        {
+            Random random = new Random();
+            int num = random.Next(1, 10);
+            int value= param + num;
+            
+            return value ;
     
         }
      
-        public int Product { get; set; } //create object for each method. 
-        public int Addition { get; set; }
-        public int Quotient { get; set; }
     }
 
 }

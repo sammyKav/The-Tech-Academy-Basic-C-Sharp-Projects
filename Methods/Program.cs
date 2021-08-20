@@ -13,11 +13,10 @@ namespace Methods
             Console.WriteLine("Enter an integer");
             int param = Convert.ToInt32(Console.ReadLine());
             ReturnInt number = new ReturnInt();
-            number.Add(param); //calling the methods to create instances of objects 
-            number.Multiply(param);
-            number.Division(param);
-
-            Console.WriteLine("Add " + number.Addition + " divide " + number.Quotient + " multiply " + number.Product);
+             //calling the methods to create instances of objects 
+            
+            Console.WriteLine("Add " + ReturnInt.Division(param) + " divide " + ReturnInt.Add(param) + " multiply " + ReturnInt.Multiply(param));
+            
             Console.ReadLine();
         
         }
