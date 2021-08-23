@@ -10,8 +10,9 @@ namespace Csharp_class_Assignment
     {
         public void  divTwo(int p) //void so no value is returned. 
         {
+          
            int num1 =  p / 2; //divide by two save in a variable
-            Console.WriteLine(num1); //print result to console.
+           Console.WriteLine(num1); //print result to console.
         }
     }
 }

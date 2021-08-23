@@ -20,11 +20,21 @@ namespace Csharp_class_Assignment
             Console.WriteLine("Another word");
             string word2 = Console.ReadLine();
             Console.WriteLine("The difference in length between the fist word and second is.. " + StaticClass.strLen(word, word2));
+            string a;
+            Console.WriteLine("Enter another word.");
+            oppositeword(out a);
+            Console.WriteLine(a);
             Console.ReadLine();
+        }
+        
+        public static void oppositeword(out string opposite)
+        {     
+            opposite = "un" + Console.ReadLine();   
         }
 
 
     }  
+    
 }
 
 
