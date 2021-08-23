@@ -18,10 +18,18 @@ namespace Method_Two_Params
             Console.WriteLine("How many hours have past since consuming contaiminated food?");
             int t = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("What dose in mg do you need");
-            int mgDose = Convert.ToInt32(Console.ReadLine());
+            try 
+            {
+                int mgDose = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(population.bacteriaGrowth(t, mgDose));//testing out with two parameters.
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine(population.bacteriaGrowth(t));// if the user enters blank for second parameter. 
+            }
 
-            Console.WriteLine(population.bacteriaGrowth(t)); // testing it out with one parameter. 
-            Console.WriteLine(population.bacteriaGrowth(t,mgDose));//testing out with two parameters. 
+            
+            
             Console.ReadLine();
         }
     }

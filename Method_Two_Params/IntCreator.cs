@@ -16,11 +16,18 @@ namespace Method_Two_Params
         
         public int bacteriaGrowth(int t, int mgDose = 0)// add antibiotics to remove bacteria
         {
-            int bact_pop = bacteriaGrowth(t);
-            int bact_decline = Convert.ToInt32(Math.Pow(mgDose * 100, 2));
-            int bact_remain = bact_pop - bact_decline;
-            
-            return bact_remain;
+
+            try
+            {
+                int bact_pop = bacteriaGrowth(t);
+                int bact_decline = Convert.ToInt32(Math.Pow(mgDose * 100, 2));
+                int bact_remain = bact_pop - bact_decline;
+                return bact_remain;
+            }
+            catch (FormatException)
+            {
+                return bacteriaGrowth(t,0);
+            }
         }
     
     }
