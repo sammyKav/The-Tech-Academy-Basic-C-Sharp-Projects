@@ -1,0 +1,7 @@
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\bin\Debug\Csharp_overload_operator_Assignment.exe.config
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\bin\Debug\Csharp_overload_operator_Assignment.exe
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\bin\Debug\Csharp_overload_operator_Assignment.pdb
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\obj\Debug\Csharp_overload_operator_Assignment.csproj.AssemblyReference.cache
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\obj\Debug\Csharp_overload_operator_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\obj\Debug\Csharp_overload_operator_Assignment.exe
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_overload_operator_Assignment\obj\Debug\Csharp_overload_operator_Assignment.pdb
