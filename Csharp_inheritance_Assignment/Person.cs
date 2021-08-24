@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Csharp_inheritance_Assignment
 {
-    class Person
+    public class Person
     {
+       public string FirstName { get; set; }
+       public string LastName { get; set; }
+       public void SayName()
+        {
+            Console.WriteLine(FirstName + " " + LastName);
+         
+        }
     }
 }
