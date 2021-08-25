@@ -41,7 +41,13 @@ namespace Csharp_lambda_Assignment
             {
                 Console.WriteLine(j.FirstName); //printing joe's to the console. 
             }
-            
+
+            List<Employee> GreaterFivers = EmployeeList.Where(x => x.Id > 5).ToList(); //use lambad to create a list greater of id greater than 5. 
+
+            foreach (Employee i in GreaterFivers)
+            {
+                Console.WriteLine(i.Id); //prints 
+            }
 
             Console.ReadLine();
 
