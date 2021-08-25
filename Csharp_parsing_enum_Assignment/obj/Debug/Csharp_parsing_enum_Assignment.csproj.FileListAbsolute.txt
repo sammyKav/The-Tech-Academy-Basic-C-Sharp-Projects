@@ -1,0 +1,7 @@
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\bin\Debug\Csharp_parsing_enum_Assignment.exe.config
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\bin\Debug\Csharp_parsing_enum_Assignment.exe
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\bin\Debug\Csharp_parsing_enum_Assignment.pdb
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\obj\Debug\Csharp_parsing_enum_Assignment.csproj.AssemblyReference.cache
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\obj\Debug\Csharp_parsing_enum_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\obj\Debug\Csharp_parsing_enum_Assignment.exe
+C:\Users\14236\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Csharp_parsing_enum_Assignment\obj\Debug\Csharp_parsing_enum_Assignment.pdb
