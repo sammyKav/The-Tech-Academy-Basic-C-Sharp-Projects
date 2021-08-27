@@ -1,0 +1,7 @@
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\bin\Debug\Csharp_constructor_Assignment.exe.config
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\bin\Debug\Csharp_constructor_Assignment.exe
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\bin\Debug\Csharp_constructor_Assignment.pdb
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\obj\Debug\Csharp_constructor_Assignment.csproj.AssemblyReference.cache
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\obj\Debug\Csharp_constructor_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\obj\Debug\Csharp_constructor_Assignment.exe
+C:\Users\14236\source\repos\Csharp_constructor_Assignment\obj\Debug\Csharp_constructor_Assignment.pdb
