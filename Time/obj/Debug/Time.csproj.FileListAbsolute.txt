@@ -1,0 +1,7 @@
+C:\Users\14236\source\repos\Time\bin\Debug\Time.exe.config
+C:\Users\14236\source\repos\Time\bin\Debug\Time.exe
+C:\Users\14236\source\repos\Time\bin\Debug\Time.pdb
+C:\Users\14236\source\repos\Time\obj\Debug\Time.csproj.AssemblyReference.cache
+C:\Users\14236\source\repos\Time\obj\Debug\Time.csproj.CoreCompileInputs.cache
+C:\Users\14236\source\repos\Time\obj\Debug\Time.exe
+C:\Users\14236\source\repos\Time\obj\Debug\Time.pdb
