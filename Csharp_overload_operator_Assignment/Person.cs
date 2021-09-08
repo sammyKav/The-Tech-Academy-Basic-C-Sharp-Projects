@@ -9,7 +9,8 @@ namespace Csharp_overload_operator_Assignment
     public abstract class Person
     {  
             public string FirstName { get; set; }
-            public string LastName { get; set; }   
+            public string LastName { get; set; }
              
+            
     }
 }

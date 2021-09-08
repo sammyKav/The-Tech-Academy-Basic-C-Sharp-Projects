@@ -10,11 +10,13 @@ namespace Csharp_overload_operator_Assignment
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee() { Id = 0, FirstName = "Uncle", LastName = "Randy" };
-            Employee employee2 = new Employee() { Id = 1, FirstName = "Bill", LastName = "Toothache" };
-           
 
-            Console.WriteLine(employee.Id == employee2.Id);
+            Employee<string> employee = new Employee<string>() { FirstName = "Bill", LastName = "Stink" };
+            employee.Thing = new List<string>() { "Drug Conviction", "Assault", "Fighting" };
+            foreach (string thing in employee.Thing)
+            {
+                Console.WriteLine(thing);
+            }
             Console.ReadLine();
 
         }

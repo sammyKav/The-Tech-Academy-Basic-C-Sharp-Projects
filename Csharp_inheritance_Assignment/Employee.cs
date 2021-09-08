@@ -9,6 +9,11 @@ namespace Csharp_inheritance_Assignment
     class Employee: Person //Employee inherits properties from Person
     {
         public int id { get; set; }
-        
+        public override void SayName()
+        {   
+            Console.WriteLine("Employee "+ id +": " + FirstName + " " + LastName)
+            base.SayName();
+        }
+
     }
 }

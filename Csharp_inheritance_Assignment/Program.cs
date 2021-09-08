@@ -11,7 +11,7 @@ namespace Csharp_inheritance_Assignment
         static void Main(string[] args)
         {
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student", id = 1 };//instantiate
-            employee.SayName();//call function for super class 
+            employee.SayName();//call function for abstract class 
             Console.ReadLine();
         }
     }

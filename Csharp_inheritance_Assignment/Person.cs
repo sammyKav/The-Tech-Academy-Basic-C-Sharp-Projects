@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Csharp_inheritance_Assignment
 {
-    public class Person
+    public abstract class Person   
     {
        public string FirstName { get; set; }
        public string LastName { get; set; }
-       public void SayName()
+       public virtual void SayName()
         {
             Console.WriteLine(FirstName + " " + LastName);
          

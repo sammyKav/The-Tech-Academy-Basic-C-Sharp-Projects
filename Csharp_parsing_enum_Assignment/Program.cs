@@ -10,7 +10,14 @@ namespace Csharp_parsing_enum_Assignment
     {
         static void Main(string[] args)
         {
-            try { 
+
+
+            Structure amt;
+
+            amt.Amount = 14.123m;
+            Console.WriteLine(amt.Amount);
+
+            try{ 
             DayofWeek day = new DayofWeek();//create new instance of day. 
             Console.WriteLine("What's the day of the week?");
             string currentDay = Console.ReadLine(); //get string value from user input 

@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace Csharp_overload_operator_Assignment
 {
-    class Employee : Person
+    class Employee<T> : Person
     {
         public int Id { get; set; }
-        public static bool operator == (Employee employee, Employee employee2) //overloading the operator
-        {
-           return employee.Id == employee2.Id;    // assinging operator new alternate value.
-        }
-        public static bool operator !=(Employee employee, Employee employee2) //overloading the operator
-        {
+        //public static bool operator == (Employee<T> employee, Employee<T> employee2) //overloading the operator
+        //{
+        //   return employee.Id == employee2.Id;    // assinging operator new alternate value.
+        //}
+        //public static bool operator !=(Employee<T> employee, Employee<T> employee2) //overloading the operator
+        //{
 
-            return employee.Id != employee2.Id;    // assinging operator new alternate value.
-        }
-
+        //    return employee.Id != employee2.Id;    // assinging operator new alternate value.
+        //}
+        public List<T> Thing { get; set; }
+        
     }
 }
